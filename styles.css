@@ -4,13 +4,14 @@
   }
   
   body {
-    background-color: #f1f1f1;
+    background: rgb(208,255,254);
+    background: radial-gradient(circle, rgba(208,255,254,1) 0%, rgba(25,133,173,1) 43%, rgba(0,76,92,1) 100%);
     padding: 20px;
-    font-family: Arial;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   
   
-  /* Center website */
+  /* center area */
   .main {
     max-width: 1000px;
     margin: auto;
@@ -25,7 +26,7 @@
     margin: 8px -16px;
   }
   
-  /* Add padding BETWEEN each column (if you want) */
+  /* padding btwn columns  */
   .row,
   .row > .column {
     padding: 8px;
