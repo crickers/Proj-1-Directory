@@ -1,54 +1,59 @@
+*
+{
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: rgb(208,255,254);
+    background: radial-gradient(circle, rgba(208,255,254,1) 0%, rgba(25,133,173,1) 43%, rgba(0,76,92,1) 100%);
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  
+  /* center area */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* padding btwn columns  */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
 
-<head>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-
-<!-- MAIN (Center website) -->
-<div class="main">
-
-<h1>crickmonster design</h1>
-<hr>
-
-<h2>PORTFOLIO</h2>
-<p>Here are some of my past projects.</p>
-
-<!-- Portfolio Gallery Grid -->
-<div class="row">
-  <div class="column">
-    <div class="content">
-      <img src="mountains.jpg" alt="Mountains" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum..</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-      <img src="lights.jpg" alt="Lights" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum..</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-      <img src="nature.jpg" alt="Nature" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum..</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-      <img src="mountains.jpg" alt="Mountains" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum..</p>
-    </div>
-  </div>
-</div>
-
-<div class="content">
-  <img src="bear.jpg" alt="Bear" style="width:100%">
-  <h3>Some Other Work</h3>
-  <p>Lorem ipsum..</p>
-</div>
-
-<!-- END MAIN -->
-</div>
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - two columns stacked instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
