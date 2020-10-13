@@ -3,14 +3,16 @@
     box-sizing: border-box;
   }
   
-  body {
+  body
+  
+  {
     background: rgb(208,255,254);
     background: radial-gradient(circle, rgba(208,255,254,1) 0%, rgba(25,133,173,1) 43%, rgba(0,76,92,1) 100%);
     padding: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   
-  
+
   /* center area */
   .main {
     max-width: 1000px;
@@ -29,7 +31,7 @@
   /* padding btwn columns  */
   .row,
   .row > .column {
-    padding: 8px;
+    padding: 20px;
   }
   
   .column {
