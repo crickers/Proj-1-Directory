@@ -9,4 +9,5 @@ Technologies used: .html, .css, formspree
 Future improvements: 1) add additional portfolio images
                      2) add additional items to shop
                      3) link shop to designer's own store instead of external links
+                     4) make Hire Me form more detailed/directed
                      
